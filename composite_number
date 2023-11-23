@@ -1,0 +1,25 @@
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,i;
+    
+    cout<<"please enter a number:";
+    cin>>a;
+    
+    for(i=2;i<a;i++)
+        {
+        if(a%i==0)
+            break;
+        }
+   
+    if(i==a)
+        cout<<"aval";
+    else
+        cout<<"morakab";
+    return 0;
+}
